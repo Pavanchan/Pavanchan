@@ -89,7 +89,7 @@ A full-featured **Uber-like mobile application** replicating the core ride-booki
 **Tech Stack**
 React Native (Expo), Redux Toolkit, Google Maps APIs, Expo Router, Tailwind RN
 
-🔗 Repo: *(Add your repo link)*
+🔗 https://github.com/Pavanchan/uber-clone-expo
 
 ---
 
