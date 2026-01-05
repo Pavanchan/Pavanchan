@@ -11,7 +11,7 @@
 
 ## 🚀 About Me
 I’m a Backend / Full Stack Developer passionate about building **scalable**, **secure**, and **high-performance** web applications.  
-I love solving complex problems and creating real-world impactful systems.
+I enjoy solving complex problems and building **real-world, production-style systems**.
 
 ---
 
@@ -31,6 +31,7 @@ I love solving complex problems and creating real-world impactful systems.
 
 ### **Frontend**
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
+![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react)
 ![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
@@ -54,69 +55,66 @@ I love solving complex problems and creating real-world impactful systems.
 
 ## 📌 Featured Projects
 
-### 🔹 **Protriden Meet – Real-time Video Conferencing**
+### 🔹 **Protriden Meet – Real-Time Video Conferencing**
 - WebRTC 4K/60fps video calls  
-- Unlimited rooms, screen share, file sharing, chat  
-- Node.js, WebRTC, Docker, JWT, OIDC  
-- **30% performance improvement → 20% user retention increase**  
+- Unlimited rooms, screen sharing, file sharing, chat  
+- Node.js, WebRTC, Docker, JWT, OpenID Connect  
+- **30% performance improvement → 20% user retention increase**
 
-🔗 *Repo Link:* (Add your repo link here)
+🔗 Repo: *(Add your repo link)*
 
 ---
 
 ### 🔹 **Our Wiki – Content Management System**
-- Topic approval workflow + admin dashboard  
+- Topic approval workflow with admin dashboard  
 - Trending topics tracking  
+- Secure authentication & role-based access  
 - CodeIgniter 4 + MySQL  
 
-🔗 *Repo Link:* (Add your repo link here)
-## 🔥 BHOOK Food Check-List – Auto-Generated Meal QA Sheets
-
-A complete automated solution to generate daily/weekly food quality-assurance checklists from Excel menus.
-
-### ⭐ Key Features
-- Upload **weekly Excel menus (Mon–Sun)** for any company.
-- Automatically parses meal categories:
-  **Breakfast, Lunch, Snacks, Midnight Snacks, Dinner**.
-- Generates **Company–format FOOD CHECK-LIST** with:
-  - Checkboxes  
-  - Wastage column  
-  - Time/Handler/Supervisor fields  
-- **Inline Edit Mode** – modify menu items before exporting.
-- Export final checklist **per meal** as:
-  - **PDF**  
-  - **PNG image**  
-- Perfect for daily sign-off by **kitchen teams** & **supervisors**.
-
-### 🔧 Tech Stack
-React, Vite, Context API, XLSX Parser, html2canvas, jsPDF  
-Deployed on **Vercel**
-
-### 🎯 Impact
-Replaced manual checklist preparation and eliminated repetitive work for catering staff across multiple branches.
-
-https://github.com/Pavanchan/bhook-checklist.git
+🔗 Repo: *(Add your repo link)*
 
 ---
-## 🧑‍🍳 **Bhook Employee Attendance System**
-An automated attendance system for a food company with specific user roles.
 
-### ⭐ Key Features:
-- **Manager**, **Supervisor**, **Employee**, **User** roles  
-- Manager has full rights  
-- Supervisor has limited but important permissions  
-- Employees can mark attendance with time & meal shifts  
-- Real-time attendance data  
-- Add/edit employees  
-- Clean UI with accessibility improvements  
-- Fixes:
-  - Input validation  
-  - UI spacing + errors  
-  - Unique-key warnings  
+### 🔹 **Uber Clone – Mobile Ride Booking App**
+A full-featured **Uber-like mobile application** replicating the core ride-booking experience.
 
-### 🔧 Tech Stack:
-React, Node.js, Express, MySQL, JWT Auth
-https://github.com/Pavanchan/bhook-attendance.git
+**Key Features**
+- Google Places Autocomplete (pickup & destination)
+- Live Google Maps with route rendering
+- Distance & ETA via Distance Matrix API
+- Dynamic pricing (UberX, XL, LUX)
+- Persistent navigation state
+- Home / Work favorite locations
+
+**Tech Stack**
+React Native (Expo), Redux Toolkit, Google Maps APIs, Expo Router, Tailwind RN
+
+🔗 Repo: *(Add your repo link)*
+
+---
+
+### 🔥 **BHOOK Food Check-List – Auto-Generated Meal QA Sheets**
+- Upload weekly Excel menus (Mon–Sun)
+- Auto-generates food QA checklists
+- Inline editing before export
+- Export as PDF / PNG per meal
+- Used by kitchen teams for daily sign-off
+
+**Tech Stack**
+React, Vite, Context API, XLSX Parser, html2canvas, jsPDF  
+🔗 https://github.com/Pavanchan/bhook-checklist.git
+
+---
+
+### 🧑‍🍳 **Bhook Employee Attendance System**
+- Role-based access (Manager, Supervisor, Employee)
+- Real-time attendance tracking
+- Shift-based attendance (meals & time)
+- Clean UI with validation & UX fixes
+
+**Tech Stack**
+React, Node.js, Express, MySQL, JWT  
+🔗 https://github.com/Pavanchan/bhook-attendance.git
 
 ---
 
@@ -143,9 +141,8 @@ https://github.com/Pavanchan/bhook-attendance.git
 
 ## 📫 Connect with Me
 📍 Karnataka, India  
-🔗 LinkedIn: **https://www.linkedin.com/in/pavan-chandan**  
-📧 Email: *(optional – if you want)*  
+🔗 LinkedIn: https://www.linkedin.com/in/pavan-chandan  
 
 ---
 
-⭐ **Thanks for visiting my profile! Feel free to connect or check out my projects.**
+⭐ Thanks for visiting my profile! Feel free to connect or explore my projects.
