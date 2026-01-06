@@ -11,7 +11,7 @@
 
 ## 🚀 About Me
 I’m a Backend / Full Stack Developer passionate about building **scalable**, **secure**, and **high-performance** web applications.  
-I enjoy solving complex problems and building **real-world, production-style systems**.
+I enjoy solving complex problems and building **real-world, production-style systems**, especially in **real-time communication and cloud-based architectures**.
 
 ---
 
@@ -23,45 +23,83 @@ I enjoy solving complex problems and building **real-world, production-style sys
 ![PHP](https://img.shields.io/badge/PHP-blue?style=for-the-badge&logo=php)
 ![C](https://img.shields.io/badge/C-%2300599C?style=for-the-badge&logo=c)
 
+---
+
 ### **Backend**
 ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
 ![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-F4521E?style=for-the-badge&logo=codeigniter)
+![Convex](https://img.shields.io/badge/Convex-000000?style=for-the-badge)
+
+---
 
 ### **Frontend**
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=for-the-badge&logo=react)
 ![HTML](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-black?style=for-the-badge)
+
+---
 
 ### **Database**
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
 
-### **Tools**
+---
+
+### **Real-Time & Streaming**
+![Stream](https://img.shields.io/badge/Stream%20Chat-005FFF?style=for-the-badge)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc)
+![Video Calling](https://img.shields.io/badge/Video%20Calling-green?style=for-the-badge)
+
+---
+
+### **Auth & Security**
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge)
+![Protected Routes](https://img.shields.io/badge/Protected%20Routes-blue?style=for-the-badge)
+
+---
+
+### **Tools & DevOps**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
 ![Postman](https://img.shields.io/badge/Postman-orange?style=for-the-badge&logo=postman)
 ![VS Code](https://img.shields.io/badge/VS%20Code-blue?style=for-the-badge&logo=visual-studio-code)
-
-### **Others**
-![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc)
-![REST API](https://img.shields.io/badge/REST%20APIs-green?style=for-the-badge)
-![System Design](https://img.shields.io/badge/System%20Design-blue?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-black?style=for-the-badge)
 
 ---
 
 ## 📌 Featured Projects
 
-### 🔹 **Protriden Meet – Real-Time Video Conferencing**
-- WebRTC 4K/60fps video calls  
-- Unlimited rooms, screen sharing, file sharing, chat  
-- Node.js, WebRTC, Docker, JWT, OpenID Connect  
-- **30% performance improvement → 20% user retention increase**
+### 🔹 **Telegram-Style Chat & Video Calling App**
+A full-fledged **real-time chat & video calling platform** inspired by Telegram.
 
-🔗 Repo: *(Add your repo link)*
+**Key Features**
+- 1-to-1 and group messaging
+- Real-time user search & chat creation
+- Secure authentication with Clerk
+- Video calls using Stream Video SDK
+- Automatic user sync using Convex
+- Protected dashboard routes
+- Modern UI with Tailwind & shadcn/ui
+
+**What I Learned**
+- Real-time system design
+- Video/audio device permission handling
+- Server Actions & token-based auth
+- Stream Chat & Stream Video SDK
+- Convex queries & mutations
+- Next.js App Router (Client + Server components)
+
+**Tech Stack**
+Next.js 16, TypeScript, Stream Chat & Video, Clerk, Convex, Tailwind CSS
+
+🔗 https://github.com/Pavanchan/telegram-youtube-stream
 
 ---
 
@@ -71,7 +109,7 @@ I enjoy solving complex problems and building **real-world, production-style sys
 - Secure authentication & role-based access  
 - CodeIgniter 4 + MySQL  
 
-🔗 Repo: *(Add your repo link)*
+🔗 *(Add your repo link)*
 
 ---
 
@@ -79,41 +117,34 @@ I enjoy solving complex problems and building **real-world, production-style sys
 A full-featured **Uber-like mobile application** replicating the core ride-booking experience.
 
 **Key Features**
-- Google Places Autocomplete (pickup & destination)
-- Live Google Maps with route rendering
-- Distance & ETA via Distance Matrix API
+- Google Places Autocomplete
+- Live Maps with route rendering
+- Distance & ETA calculation
 - Dynamic pricing (UberX, XL, LUX)
 - Persistent navigation state
-- Home / Work favorite locations
 
 **Tech Stack**
-React Native (Expo), Redux Toolkit, Google Maps APIs, Expo Router, Tailwind RN
+React Native (Expo), Redux Toolkit, Google Maps APIs  
 
 🔗 https://github.com/Pavanchan/uber-clone-expo
 
 ---
 
 ### 🔥 **BHOOK Food Check-List – Auto-Generated Meal QA Sheets**
-- Upload weekly Excel menus (Mon–Sun)
-- Auto-generates food QA checklists
+- Weekly Excel upload (Mon–Sun)
+- Auto-generated food QA checklists
 - Inline editing before export
-- Export as PDF / PNG per meal
-- Used by kitchen teams for daily sign-off
+- PDF / PNG export
 
-**Tech Stack**
-React, Vite, Context API, XLSX Parser, html2canvas, jsPDF  
 🔗 https://github.com/Pavanchan/bhook-checklist.git
 
 ---
 
 ### 🧑‍🍳 **Bhook Employee Attendance System**
-- Role-based access (Manager, Supervisor, Employee)
-- Real-time attendance tracking
-- Shift-based attendance (meals & time)
-- Clean UI with validation & UX fixes
+- Role-based access
+- Shift-based attendance
+- Real-time tracking
 
-**Tech Stack**
-React, Node.js, Express, MySQL, JWT  
 🔗 https://github.com/Pavanchan/bhook-attendance.git
 
 ---
